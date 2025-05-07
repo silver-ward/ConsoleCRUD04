@@ -28,10 +28,11 @@ Após a execução, o usuário pode optar por continuar utilizando o sistema ou 
 
 ## Estrutura do Projeto
 
-* **Program.cs**: Contém o ponto de entrada da aplicação e o menu principal.
-* **Controllers/ClienteController.cs**: Contém os métodos responsáveis pelas ações de CRUD.
-
-> Obs: O código apresentado utiliza recursividade para reiniciar o menu sempre que o usuário deseja continuar.
+* **Program.cs**: Contém o ponto de entrada da aplicação, exibe o menu principal e direciona as opções do usuário.
+* **Controllers/ClienteController.cs**: Camada responsável por orquestrar a lógica da aplicação. Chama os métodos do repositório para realizar as operações de CRUD.
+* **Entities/Cliente.cs**: Representa a entidade de domínio Cliente, contendo propriedades como nome, email, etc.
+* **Interfaces/IClienteRepository.cs**: Define o contrato (interface) que a camada de repositório deve seguir. Garante desacoplamento entre a lógica de negócio e a persistência de dados.
+* **Repositories/ClienteRepository.cs**: Implementa a interface IClienteRepository e contém a lógica para manipulação de dados.
 
 ## Requisitos
 
