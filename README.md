@@ -1,7 +1,3 @@
-Claro! Aqui está um exemplo de `README.md` para o projeto com base no código fornecido:
-
----
-
 # Sistema de Controle de Clientes (.NET Console App)
 
 Este projeto é uma aplicação de console desenvolvida em C# com .NET, cujo objetivo é realizar operações básicas de CRUD (Create, Read, Update, Delete) para gerenciar clientes.
@@ -58,13 +54,3 @@ Após a execução, o usuário pode optar por continuar utilizando o sistema ou 
    ```
 
 3. Siga as instruções no menu.
-
-## Próximas Melhorias (sugestões)
-
-* Validação de entradas do usuário
-* Persistência de dados (em arquivo ou banco de dados)
-* Interface gráfica (ex: com WinForms, WPF ou Blazor Desktop)
-
----
-
-Deseja que eu também gere esse `README.md` como um arquivo para você baixar?
